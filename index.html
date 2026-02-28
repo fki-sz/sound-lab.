@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>集中空間ラボ〜集中できる環境を整えるためのwebサイト〜</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/bg.css">
+<link rel="stylesheet" href="css/about.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kosugi&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kosugi&family=Play:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="top-bar">
+    <img src="img/logo.png" class="logo">
+    <img src="img/memo_02.png" class="memo">
+  </div>
+
+<div class="area" >
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+</div >
+
+
+<!-- タイマー（右上固定）-->
+<div id="timerBox" class="timer-modern">
+  <div id="timeDisplay">25:00</div>
+
+  <div id="timerControls" >
+   <button id="playPauseBtn">▶</button>
+   <button id="resetBtn">⟳</button>
+
+  </div>
+
+  <!-- 分／秒 設定 UI -->
+  <div id="timeSettings">
+    <div>
+      <span>分：</span>
+      <button id="minDown">–</button>
+      <span id="minLabel">25</span>
+      <button id="minUp">＋</button>
+    </div>
+    <div>
+      <span>秒：</span>
+      <button id="secDown">–</button>
+      <span id="secLabel">00</span>
+      <button id="secUp">＋</button>
+    </div>
+  </div>
+</div>
+
+
+<!-- 中央に音ボタン -->
+<div class="sound-wrapper">
+
+  <div class="sound-row">
+    <button class="sound-btn" id="sound1btn" data-name="雨" data-sound="sound1">
+      <img src="icon/icon_01.png" alt="">
+    </button>
+    <button class="sound-btn" id="sound2btn"data-name="海岸" data-sound="sound2">
+      <img src="icon/icon_02.png" alt="">
+    </button>
+    <button class="sound-btn"id="sound3btn"data-name="流水"  data-sound="sound3">
+      <img src="icon/icon_03.png" alt="">
+    </button>
+    <button class="sound-btn" id="sound4btn"data-name="焚き火" data-sound="sound4">
+      <img src="icon/icon_04.png" alt="">
+    </button>
+    <button class="sound-btn"id="sound5btn"data-name="森"  data-sound="sound5">
+      <img src="icon/icon_05.png" alt="">
+    </button>
+  </div>
+
+  <div class="sound-row">
+    <button class="sound-btn"id="sound6btn"data-name="ASMR"  date-name="" data-sound="sound6">
+      <img src="icon/icon_06.png" alt="">
+    </button>
+    <button class="sound-btn"id="sound7btn"data-name="街風"  data-sound="sound7">
+      <img src="icon/icon_07.png" alt="">
+    </button>
+    <button class="sound-btn"id="sound8btn"data-name="カフェ"  data-sound="sound8">
+      <img src="icon/icon_08.png" alt="">
+    </button>
+    <button class="sound-btn"id="sound9btn" data-name="鳥" data-sound="sound9">
+      <img src="icon/icon_09.png" alt="">
+    </button>
+    <button class="sound-btn"id="sound10btn"data-name="夏夜"  data-sound="sound10">
+      <img src="icon/icon_10.png" alt="">
+    </button>
+  </div>
+
+  <div class="sound-row">
+    <button class="sound-btn"id="sound11btn"data-name="電子音楽"  data-sound="sound11">
+      <img src="icon/icon_11.png" alt="">
+    </button>
+    <button class="sound-btn"id="sound12btn"data-name="ブラウンノイズ"  data-sound="sound12">
+      <img src="icon/icon_12.png" alt="">
+    </button>
+    <button class="sound-btn" id="sound13btn"data-name="瞑想音楽" data-sound="sound13">
+      <img src="icon/icon_13.png" alt="">
+    </button>
+  </div>
+
+</div>
+
+<!-- 音量調整パネル -->
+<div id="volumePanel"></div>
+
+
+<section class="about-section ">
+  <div class="about-content">
+    <img src="img/logo.png" class="about-logo">
+    <img src="img/about.png" class="about-text">
+  </div>
+</section>
+
+
+<section class="feature-section">
+
+  <h2 class="feature-title">
+    <img src="img/can.png" alt="機能タイトル" >
+  </h2>
+
+  <div class="feature-content">
+    <img src="img/can_01.png" class="feature-image">
+    <img src="img/can_01_1.png" class="feature-text">
+  </div>
+
+  <div class="feature-content">
+    <img src="img/can_02.png" class="feature-image">
+    <img src="img/can_02_1.png" class="feature-text">
+  </div>
+
+</section>
+
+
+<section class="preset-section">
+
+  <h2 class="preset-title">
+    <img src="img/preset.png" alt="おすすめプリセット" >
+  </h2>
+
+  <div class="preset-list">
+    <img src="img/preset_01.png" class="preset-item01">
+    <img src="img/preset_02.png" class="preset-item02">
+    <img src="img/preset_03.png" class="preset-item03" >
+
+  </div>
+
+</section>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
