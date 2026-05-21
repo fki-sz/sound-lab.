@@ -47,6 +47,7 @@ body {
     backdrop-filter: blur(6px);
     font-size: 20px;
     color: white;
+     z-index: 9999;
   }
   #timeSettings {
     margin-top: 3px;
